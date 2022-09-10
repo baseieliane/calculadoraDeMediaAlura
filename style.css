@@ -1,0 +1,134 @@
+* {
+    font-family: "Gill Sans Extrabold", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+body {
+    background-color: #34495E;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    margin-bottom: 10vh;
+    height: 20vh;
+    justify-content: space-between;
+    color: #FBEEE6;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.modal {
+    background-color: #F2F3F4;
+    width: 85vw;
+    max-width: 800px;
+    height: 50vh;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.texto-modal {
+    text-align: center;
+    color: #343A40;
+}
+
+.input-informacoes {
+    border-radius: 1rem;
+    border: 3px solid #34495E;
+    padding: 0.5rem;
+    background-color: #F2F3F4;
+    text-align: center;
+    color: #343A40;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.fs1 {
+    font-size: 27px;
+}
+
+.fs2 {
+    font-size: 23px;
+}
+
+.space-top {
+    margin-top: 50px;
+}
+
+.space-bottom {
+    margin-bottom: 40px;
+}
+
+.btn-envio {
+    padding: 5px 25px;
+    border-radius: 0.5rem;
+    margin-left: 8px;
+}
+
+.container-notas {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.form-notas {
+    width: 100%;
+}
+
+@media (max-width:600px){
+    .container-notas {
+        flex-direction: column;
+    }
+}
+
+.input-notas   {
+    border: 2px solid #34495E;
+    padding: 0.5rem;
+    background-color: #F2F3F4;
+    text-align: center;
+    color: #343A40;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.success {
+    color: limegreen;
+}
+
+.failure {
+    color: red;
+}
+
+.padding-min {
+    padding: 15px;
+}

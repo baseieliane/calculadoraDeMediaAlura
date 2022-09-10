@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Médias</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="d-flex container">
+        <header class="d-flex">
+            <h1 class="page-title">Calculadora de média</h1>
+            <p class="page-subtitle">
+                Descubra qual a sua média de nota de todas as provas!
+            </p>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+                class="page-logo" alt="">
+        </header>
+        <div class="d-flex modal" id="modal">
+            <div>
+                <h2 class="texto-modal fs1">Bem-vindo(a) à Calculadora de médias</h2>
+                <h2 class="texto-modal fs2 space-top">Para iniciarmos, insira seu nome abaixo</h2>
+            </div>
+            <form id="identificadorDeUsuario" class="space-bottom">
+                <input class="input-informacoes" type="text" id="nomeDoUsuario" placeholder="Ex.: Maria">
+                <input class="btn-envio" type="submit" value="Salvar">
+            </form>
+        </div>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    <script src="./index.js"></script>
+</body>
+
+</html>
